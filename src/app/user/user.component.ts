@@ -11,7 +11,7 @@ export class UserComponent implements OnInit {
   profile: any;
   repos: any;
   userName: any = 'kiira254'
-  constructor(private userService:UserService,private user:User) {
+  constructor(private userService:UserService) {
 
   }
 

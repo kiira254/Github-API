@@ -1,6 +1,10 @@
 .back{
-    background-image: url('https://cnet2.cbsistatic.com/img/ZfL4WRuKv3LxnxKSAL4UJVHyysg=/940x0/2019/07/29/6109b01f-e32f-457d-9533-cd55b68ba5ba/d6j9ongwaam4yrm.png');
+    background-image: url('https://img.freepik.com/free-vector/watercolor-background_87374-69.jpg?size=626&ext=jpg');
     background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
     height: 800px;
-    color: black;
+    color: rgb(40, 136, 173);
+    padding-bottom: 45.5%;
 }

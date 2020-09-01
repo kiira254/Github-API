@@ -10,8 +10,8 @@ import {Repo} from '../repo'
 export class RepoComponent implements OnInit {
   reposItems: any[];
   reposName: string='Githubsearch';
-  
-  constructor(private userService:UserService,private repo:Repo) {
+
+  constructor(private userService:UserService) {
 
   }
 
