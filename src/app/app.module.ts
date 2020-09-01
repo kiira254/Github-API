@@ -8,6 +8,7 @@ import { RepoComponent } from './repo/repo.component';
 import { SearchComponent } from './search/search.component';
 import { UserComponent } from './user/user.component';
 import { DateCountPipe } from './date-count.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DateCountPipe } from './date-count.pipe';
     RepoComponent,
     SearchComponent,
     UserComponent,
-    DateCountPipe
+    DateCountPipe,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
