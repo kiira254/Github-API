@@ -10,7 +10,7 @@ import { UserService } from '../user-service/user.service'
 export class UserComponent implements OnInit {
   profile: any;
   repos: any;
-  userName: any = 'SheilaKamotho'
+  userName: any = 'kiira254'
   constructor(private userService:UserService,private user:User) {
 
   }
