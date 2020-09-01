@@ -9,9 +9,27 @@ import { UserService } from '../user-service/user.service'
 })
 export class UserComponent implements OnInit {
 
-  constructor() { }
+  constructor(private userService:UserService,private user:User) {
 
-  ngOnInit(): void {
   }
+
+//   findProfile(){
+//    this.userService.updateProfile(this.userName);
+
+//    this.userService.getProfileInfo().subscribe(profile =>{
+//      console.log(profile);
+//    this.profile= profile      
+//    });
+
+//    this.userService.getProfileRepos().subscribe(repos =>{
+//      console.log(repos);
+//    this.repos= repos;      
+   
+//    })
+//  }
+
+ ngOnInit(){
+  //  this.findProfile()
+ }
 
 }
