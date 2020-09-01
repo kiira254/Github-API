@@ -8,28 +8,30 @@ import { UserService } from '../user-service/user.service'
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
-
+  profile: any;
+  repos: any;
+  userName: any = 'SheilaKamotho'
   constructor(private userService:UserService,private user:User) {
 
   }
 
-//   findProfile(){
-//    this.userService.updateProfile(this.userName);
+  findProfile(){
+   this.userService.updateProfile(this.userName);
 
-//    this.userService.getProfileInfo().subscribe(profile =>{
-//      console.log(profile);
-//    this.profile= profile      
-//    });
+   this.userService.getProfileInfo().subscribe(profile =>{
+     console.log(profile);
+   this.profile= profile      
+   });
 
-//    this.userService.getProfileRepos().subscribe(repos =>{
-//      console.log(repos);
-//    this.repos= repos;      
+   this.userService.getProfileRepos().subscribe(repos =>{
+     console.log(repos);
+   this.repos= repos;      
    
-//    })
-//  }
+   })
+ }
 
  ngOnInit(){
-  //  this.findProfile()
+   this.findProfile()
  }
 
 }
