@@ -8,8 +8,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http'
 export class UserService {
   userName: string;
   repoName: string;
-  clientId: string= '"MDQ6VXNlcjY3Njg5Nzk0"';
-  clientSecret: string = '5dfa88d45fa23b6c7ee535af8844baccfd42e61d';
+  clientId: string= 'b2d0099595b62e49dd0d';
+  clientSecret: string = '0e387c617760da40fb6f3a41e17fede720af96ab';
   apikey: string = 'd096e17415f37a53e8e6e7b11da78963dc315340'
 
   constructor(private http: HttpClient) {
